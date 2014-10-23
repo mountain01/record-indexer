@@ -11,8 +11,8 @@ CREATE TABLE  user (
 	lastname VARCHAR(255),
 	username VARCHAR(255),
 	password VARCHAR(255),
-	recordcount VARCHAR(255) DEFAULT 0,
-	currbatch VARCHAR(255),
+	recordcount INTEGER DEFAULT 0,
+	currbatch INTEGER,
 	email VARCHAR(255)
 );
 
@@ -49,7 +49,7 @@ CREATE TABLE field (
 
 CREATE TABLE value (
 	valueid INTEGER PRIMARY KEY AUTOINCREMENT,
-	value VARCHAR(255),
+	name VARCHAR(255),
 	recordid INTEGER,
 	fieldid INTEGER
 )

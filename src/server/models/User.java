@@ -9,8 +9,8 @@ public class User {
     String lastname;
     String username;
     String password;
-    String recordcount;
-    String currbatch;
+    int recordcount;
+    int currbatch;
     String email;
 
     /**
@@ -96,7 +96,7 @@ public class User {
      *
      * @return number of completed records
      */
-    public String getRecordcount() {
+    public int getRecordcount() {
         return recordcount;
     }
 
@@ -104,7 +104,7 @@ public class User {
      * set number of completed records for user
      * @param recordcount
      */
-    public void setRecordcount(String recordcount) {
+    public void setRecordcount(int recordcount) {
         this.recordcount = recordcount;
     }
 
@@ -112,7 +112,7 @@ public class User {
      *
      * @return current batch id
      */
-    public String getCurrbatch() {
+    public int getCurrbatch() {
         return currbatch;
     }
 
@@ -120,7 +120,7 @@ public class User {
      * set current batch for user
      * @param currbatch
      */
-    public void setCurrbatch(String currbatch) {
+    public void setCurrbatch(int currbatch) {
         this.currbatch = currbatch;
     }
 
