@@ -11,8 +11,8 @@ public class Project {
     int recordheight;
 
     /**
-     * get the project's id
-     * @return
+     *
+     * @return project id
      */
     public int getProjectid() {
         return projectid;
@@ -27,8 +27,8 @@ public class Project {
     }
 
     /**
-     * get the project's title
-     * @return
+     *
+     * @return project title
      */
     public String getTitle() {
         return title;
@@ -43,8 +43,8 @@ public class Project {
     }
 
     /**
-     * get number of images per record
-     * @return
+     *
+     * @return number of records per image
      */
     public int getRecordsperimage() {
         return recordsperimage;
@@ -59,8 +59,8 @@ public class Project {
     }
 
     /**
-     * get y coordinate of first record in project
-     * @return
+     *
+     * @return y coordinate of first record
      */
     public int getFirstycoord() {
         return firstycoord;
@@ -75,8 +75,8 @@ public class Project {
     }
 
     /**
-     * get height of records in project
-     * @return
+     *
+     * @return height of each record
      */
     public int getRecordheight() {
         return recordheight;

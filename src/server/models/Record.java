@@ -8,8 +8,8 @@ public class Record {
     int batchid;
 
     /**
-     * get batches associated record id
-     * @return
+     * g
+     * @return associated record id
      */
     public int getRecordid() {
         return recordid;
@@ -24,8 +24,8 @@ public class Record {
     }
 
     /**
-     * get batch id for batch
-     * @return
+     *
+     * @return batch id
      */
     public int getBatchid() {
         return batchid;

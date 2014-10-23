@@ -10,8 +10,8 @@ public class Batch {
     boolean complete;
 
     /**
-     * get the batch's id
-     * @return
+     *
+     * @return the batch id
      */
     public int getBatchid() {
         return batchid;
@@ -26,8 +26,8 @@ public class Batch {
     }
 
     /**
-     * get the batch's associated project id
-     * @return
+     *
+     * @return associated project id
      */
     public int getProjectid() {
         return projectid;
@@ -42,8 +42,8 @@ public class Batch {
     }
 
     /**
-     * get the file path for the batch's image
-     * @return
+     *
+     * @return image's file path
      */
     public String getImagefilepath() {
         return imagefilepath;
@@ -58,8 +58,8 @@ public class Batch {
     }
 
     /**
-     * check to see if the batch has been completed or not
-     * @return
+     *
+     * @return true if completed else false
      */
     public boolean isComplete() {
         return complete;

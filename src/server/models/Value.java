@@ -10,8 +10,8 @@ public class Value {
     int fieldid;
 
     /**
-     * Get the valueId
-     * @return
+     *
+     * @return value id
      */
     public int getValueid() {
         return valueid;
@@ -26,8 +26,8 @@ public class Value {
     }
 
     /**
-     * get name of value
-     * @return
+     *
+     * @return name
      */
     public String getName() {
         return name;
@@ -42,8 +42,8 @@ public class Value {
     }
 
     /**
-     * get Recordid of Value
-     * @return
+     *
+     * @return associated record id
      */
     public int getRecordid() {
         return recordid;
@@ -58,8 +58,8 @@ public class Value {
     }
 
     /**
-     * get fieldid of value
-     * @return
+     *
+     * @return field id
      */
     public int getFieldid() {
         return fieldid;

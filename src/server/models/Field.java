@@ -14,8 +14,8 @@ public class Field {
     int colid;
 
     /**
-     * get field's id
-     * @return
+     *
+     * @return field id
      */
     public int getFieldid() {
         return fieldid;
@@ -30,8 +30,8 @@ public class Field {
     }
 
     /**
-     * get field's associated batch id
-     * @return
+     *
+     * @return associated batch id
      */
     public int getBatchid() {
         return batchid;
@@ -46,8 +46,8 @@ public class Field {
     }
 
     /**
-     * get field's title
-     * @return
+     *
+     * @return field title
      */
     public String getTitle() {
         return title;
@@ -62,8 +62,8 @@ public class Field {
     }
 
     /**
-     * get field's x coordinate
-     * @return
+     *
+     * @return field's x coordinate
      */
     public int getXcoord() {
         return xcoord;
@@ -78,8 +78,8 @@ public class Field {
     }
 
     /**
-     * get the field's width
-     * @return
+     *
+     * @return fields width
      */
     public int getWidth() {
         return width;
@@ -94,8 +94,8 @@ public class Field {
     }
 
     /**
-     * get field's help html
-     * @return
+     *
+     * @return fields help text url
      */
     public String getHelphtml() {
         return helphtml;
@@ -110,8 +110,8 @@ public class Field {
     }
 
     /**
-     * get field's known data html
-     * @return
+     * g
+     * @return fields known values url
      */
     public String getKnowndatahtml() {
         return knowndatahtml;
@@ -126,8 +126,8 @@ public class Field {
     }
 
     /**
-     * get the field's column
-     * @return
+     *
+     * @return field's column id
      */
     public int getColid() {
         return colid;

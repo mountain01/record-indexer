@@ -14,8 +14,7 @@ public class User {
     String email;
 
     /**
-     * get user id from User
-     * @return
+     * get user id from User@return user id
      */
     public int getUserid() {
         return userid;
@@ -30,8 +29,8 @@ public class User {
     }
 
     /**
-     * get first name from user
-     * @return
+     *
+     * @return first name
      */
     public String getFirstname() {
         return firstname;
@@ -46,8 +45,8 @@ public class User {
     }
 
     /**
-     * get user's last name
-     * @return
+     *
+     * @return last name
      */
     public String getLastname() {
         return lastname;
@@ -94,8 +93,8 @@ public class User {
     }
 
     /**
-     * return number of completed records from user
-     * @return
+     *
+     * @return number of completed records
      */
     public String getRecordcount() {
         return recordcount;
@@ -110,8 +109,8 @@ public class User {
     }
 
     /**
-     * get current batch from user
-     * @return
+     *
+     * @return current batch id
      */
     public String getCurrbatch() {
         return currbatch;
@@ -126,8 +125,8 @@ public class User {
     }
 
     /**
-     * get email from user
-     * @return
+     *
+     * @return email
      */
     public String getEmail() {
         return email;
